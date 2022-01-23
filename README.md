@@ -56,7 +56,7 @@ CONFIG : <a href="https://drive.google.com/drive/folders/1FcjPWCC5G1xg_WqngWEDvm
 
 t:@WatcherB 
 
-Config ini masih dalam proses pembuatan dan masih belum fix beul-beul jadi, dan masih akan tetap di perbaharui ke versi yang lebih baik.
+Config ini masih dalam proses pembuatan dan masih belum fix betul-betul jadi, dan masih akan tetap di perbaharui ke versi yang lebih baik.
 Saya masih belajar, tanpa guru/autodidak, saya juga hanya orang biasa dan bukan sarjana. ini semua hanyalah hobi sampingan saja dan saya yakin config ini tidaklah sempurna, jika ada masalah/bug/error tolong berikan laporan dan sarannya.
 
 salah satu alasan kenapa rule GAMES, STREAM, dan SOSMED hanya ada sedikit karena yang saya benar-benar digunakan hanya 50% sedangkan 50%-Nya lagi hampir tidak pernah digunakan, dan jika mau kalian bisa tabahkan sendiri rule yang dibutuhkan.
