@@ -86,8 +86,8 @@ Untuk melakukan pengecekan speed test pada setiap proxy yang ada, kalian bisa la
 - Buka Proxy group "MANUAL" > Piih proxy mana yang akan test speednya. Ex: UNINET.
 - Buka "https://www.speedtest.net/" untuk melihat hasil speed testnya.
 <p align="center">
-  <img src="https://github.com/00grezt/CLASH-CF_v7-FIX3/blob/main/PREVIEW-MANUAL.png" width="auto" title="CFG PREVIEW SPEED TEST IMG">
-  <img align="center" src="https://github.com/00grezt/CLASH-CF_v7-FIX3/blob/main/PREVIEW-MANUAL-ST.png" width="auto" title="CFG PREVIEW SPEED TEST IMG 2">
+  <img src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXYT.png" width="auto" title="CFG PREVIEW SPEED TEST IMG">
+  <img align="center" src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXYS.png" width="auto" title="CFG PREVIEW SPEED TEST IMG 2">
 </p>
 
 # Rules
@@ -111,9 +111,13 @@ Untuk melakukan pengecekan speed test pada setiap proxy yang ada, kalian bisa la
            Nama-nama group proxy yang koneksinya bisa digunakan sebagai rule untuk ip/domain pada proxy rule.
            
 # AD-BLOCK TEST
-TEST SOURCE : https://d3ward.github.io/toolz/adblock.html & https://adblock-tester.com/
-  <img src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXYX.png" width="auto" title="CFG PREVIEW IMG 1" align="center">
+TEST SOURCE : 
+<p align="center">
+https://d3ward.github.io/toolz/adblock.html & https://adblock-tester.com/
+<img src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXYX.png" width="auto" title="CFG PREVIEW IMG 1" align="center">
 <text align="center"> TEST RESULT </text>
+</p>
+  
 # PREVIEW
 
 <p align="center">
