@@ -60,22 +60,15 @@ Config ini masih dalam proses pembuatan dan masih belum fix beul-beul jadi, dan 
 Saya masih belajar, tanpa guru/autodidak, saya juga hanya orang biasa dan bukan sarjana. ini semua hanyalah hobi sampingan saja dan saya yakin config ini tidaklah sempurna, jika ada masalah/bug/error tolong berikan laporan dan sarannya.
 
 # Fiture
-<p>
-- MENU "GLOBAL-A" = Sebagai global connection kepada apps & domain yang tidak memiliki rule.
-  <p>
-- MENU "MANUAL" = Memilih proxy secara manual yang bisa digunakan untuk global connection pada proxy group "GLOBAL-A" dan single conn di Proxy group SOSMED, STREAM, DAN GAMES.
-    <p>
-- MENU "SOSMED" = Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule SOSMED.
-      <p>
-- MENU "STREAM" = Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule STREAM.
-        <p>
-- MENU "GAMES" = Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, ID-GAME, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule GAMES.
-          <p>
-- MENU "BLOCK-LIST" = Menolak koneksi dari ip/domain yang sudah ditenukan di proxy rule.
-            <p>
-- MENU "BEST-PING" = Proxy group yang berfungsi untuk memilih ping terbaik dari proxy yang ada.
-              <p>
-- MENU "LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3" = Proxy group yang menggunakan metode load-balance.
+
+- MENU "GLOBAL-A" = <p> Sebagai global connection kepada apps & domain yang tidak memiliki rule.
+- MENU "MANUAL" = <p>Memilih proxy secara manual yang bisa digunakan untuk global connection pada proxy group "GLOBAL-A" dan single conn di Proxy group SOSMED, STREAM, DAN GAMES.
+- MENU "SOSMED" = <p>Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule SOSMED.
+- MENU "STREAM" = <p>Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule STREAM.
+- MENU "GAMES" = <p>Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, ID-GAME, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule GAMES.
+- MENU "BLOCK-LIST" = <p>Menolak koneksi dari ip/domain yang sudah ditenukan di proxy rule.
+- MENU "BEST-PING" = <p>Proxy group yang berfungsi untuk memilih ping terbaik dari proxy yang ada.
+- MENU "LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3" = <p>Proxy group yang menggunakan metode load-balance.
 
 # SET PROXY GROUP
 - GLOBAL-A : DEFAULT (DIRECT), REKOMENDASI (MANUAL).
