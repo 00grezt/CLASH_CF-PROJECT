@@ -71,12 +71,12 @@ Saya masih belajar, tanpa guru/autodidak, saya juga hanya orang biasa dan bukan 
 - MENU "LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3" = <p>Proxy group yang menggunakan metode load-balance.
 
 # SET PROXY GROUP
-- GLOBAL-A : DEFAULT (DIRECT), REKOMENDASI (MANUAL).
-- MANUAL : DEFAULT (UNINET), REKOMENDASI (SG.GS).
-- SOSMED : DEFAULT (DIRECT), REKOMENDASI (LB2-SG1).
-- STREAM : DEFAULT (DIRECT), REKOMENDASI (LB1-ID1).
-- GAMES : DEFAULT (DIRECT), REKOMENDASI (ID-GAME).
-- BLOCK-LIST : DEFAULT (RIJECT), Pilih "GLOBAL-A" jika tidak ingin ada domain yang di block. 
+- GLOBAL-A : <p>DEFAULT (DIRECT), REKOMENDASI (MANUAL).
+- MANUAL : <p>DEFAULT (UNINET), REKOMENDASI (SG.GS).
+- SOSMED : <p>DEFAULT (DIRECT), REKOMENDASI (LB2-SG1).
+- STREAM : <p>DEFAULT (DIRECT), REKOMENDASI (LB1-ID1).
+- GAMES : <p>DEFAULT (DIRECT), REKOMENDASI (ID-GAME).
+- BLOCK-LIST : <p>DEFAULT (RIJECT), Pilih "GLOBAL-A" jika tidak ingin ada domain yang di block. 
 
 # SPEED TEST
 Untuk melakukan pengecekan speed test pada setiap proxy yang ada, kalian bisa lakukan dengan cara :
