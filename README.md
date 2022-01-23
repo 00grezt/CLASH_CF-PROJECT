@@ -101,12 +101,11 @@ Untuk melakukan pengecekan speed test pada setiap proxy yang ada, kalian bisa la
 # PREVIEW
 
 <p align="center">
-  <img src="https://github.com/00grezt/CLASH-CF_v7-FIX3/blob/main/PREVIEW.png" width="auto" title="CFG PREVIEW IMG 1">
-  <text align="center"> Config Preview - PROXY LIST </text>
-  <img src="https://github.com/00grezt/CLASH-CF_v7-FIX3/blob/main/PREVIEW2.png" width="auto" title="CFG PREVIEW IMG 2">
-  <text align="center"> Config Preview - PROXY GROUP </text>
-  <img src="https://github.com/00grezt/CLASH-CF_v7-FIX3/blob/main/PREVIEW3.png" width="auto" title="CFG PREVIEW IMG 3">
+  <img src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXY1.png" width="auto" title="CFG PREVIEW IMG 1">
+  <img src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXY2.png" width="auto" title="CFG PREVIEW IMG 1">
+  <text align="center"> Config Preview - PROXY LIST & PROXY GROUP </text>
+  <img src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXYL.png" width="auto" title="CFG PREVIEW IMG 3">
   <text align="center"> Config Preview - LOG ACTIVITY </text>
-  <img src="https://github.com/00grezt/CLASH-CF_v7-FIX3/blob/main/PREVIEW4.png" width="auto" title="CFG PREVIEW IMG 4">
+  <img src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXYC.png" width="auto" title="CFG PREVIEW IMG 4">
   <text align="center"> Config Preview - CONNECTION RULES </text>
 </p>
