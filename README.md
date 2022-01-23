@@ -57,14 +57,26 @@ CONFIG : <a href="https://drive.google.com/drive/folders/1FcjPWCC5G1xg_WqngWEDvm
 t:@WatcherB 
 
 Config ini masih dalam proses pembuatan dan masih belum fix beul-beul jadi, dan masih akan tetap di perbaharui ke versi yang lebih baik.
-Saya masih belajar, saya hanya orang biasa dan bukan sarjana. ini semua hanyalah hobi sampingan saja dan saya yakin config ini tidaklah sempurna, jika ada masalah/bug/error tolong berikan laporan dan sarannya.
+Saya masih belajar, tanpa guru/autodidak, saya juga hanya orang biasa dan bukan sarjana. ini semua hanyalah hobi sampingan saja dan saya yakin config ini tidaklah sempurna, jika ada masalah/bug/error tolong berikan laporan dan sarannya.
 
 # Fiture
 
 - MENU "GLOBAL-A" = Sebagai global connection kepada apps & domain yang tidak memiliki rule.
-- MENU "MANUAL" = Memilih proxy secara manual yang bisa digunakan untuk global connection pada proxy group "GLOBAL-A"
+- MENU "MANUAL" = Memilih proxy secara manual yang bisa digunakan untuk global connection pada proxy group "GLOBAL-A" dan single conn di Proxy group SOSMED, STREAM, DAN GAMES.
+- MENU "SOSMED" = Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule SOSMED.
+- MENU "STREAM" = Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule STREAM.
+- MENU "GAMES" = Proxy group yang bisa dipilih secara manual (Proxy yang tersedia : DIRECT, RIJECT, MANUAL, BEST-PING, ID-GAME, LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 ) untuk digunakan sebagai koneksi rule GAMES.
+- MENU "BLOCK-LIST" = Menolak koneksi dari ip/domain yang sudah ditenukan di proxy rule. 
 - MENU "BEST-PING" = Proxy group yang berfungsi untuk memilih ping terbaik dari proxy yang ada.
-- MENU "LB!, LB2, LB3" = Proxy group yang menggunakan metode load-balance.
+- MENU "LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3" = Proxy group yang menggunakan metode load-balance.
+
+# SET PROXY GROUP
+- GLOBAL-A : DEFAULT (DIRECT), REKOMENDASI (MANUAL).
+- MANUAL : DEFAULT (UNINET), REKOMENDASI (SG.GS).
+- SOSMED : DEFAULT (DIRECT), REKOMENDASI (LB2-SG1).
+- STREAM : DEFAULT (DIRECT), REKOMENDASI (LB1-ID1).
+- GAMES : DEFAULT (DIRECT), REKOMENDASI (ID-GAME).
+- BLOCK-LIST : DEFAULT (RIJECT), Pilih "GLOBAL-A" jika tidak ingin ada domain yang di block. 
 
 # SPEED TEST
 Untuk melakukan pengecekan speed test pada setiap proxy yang ada, kalian bisa lakukan dengan cara :
@@ -83,21 +95,25 @@ Untuk melakukan pengecekan speed test pada setiap proxy yang ada, kalian bisa la
 - GAMING
 - STREAMING
 - SOSMED 
-- BLACK-LIST ()
+- BLOCK-LIST ( WEB JUDI, WEB DEWASA, IKLAN )
 
 #==================================================================
 
  Ket. rules :
 - DIRECT :
            Koneksi langsung tanpa menggunakan inject. 
-- MATCH ( GLOBAL ) : 
-           koneksi yang di tentukan untuk ip/domain yang tidak memiliki rule tertentu (GLOBAL CONNECTION)
+- MATCH,GLOBAL-A ( GLOBAL CONN ) : 
+           koneksi yang di tentukan untuk ip/domain yang tidak memiliki rule (GLOBAL CONNECTION)
            lalu mereka akan menggunakan koneksi proxy yang dipilih berdasarkan metode pada proxy group GLOBAL-A.
 - REJECT : 
            Menolak sebuah koneksi pada domain tersebut/ blacklist.
-- GLOBAL-A,MANUAL,BEST-PING,LB1,LB2,LB3 : 
-           Nama-nama group proxy yang koneksinya bisa digunakan sebagai rule untuk ip/domain tertentu.
-                      
+- GLOBAL-A,MANUAL,BEST-PING,LB!-ID1, LB2-SG1, LB3-ID2, LB4-SG2, LB5-ID3 : 
+           Nama-nama group proxy yang koneksinya bisa digunakan sebagai rule untuk ip/domain pada proxy rule.
+           
+# AD-BLOCK TEST
+TEST SOURCE : https://d3ward.github.io/toolz/adblock.html & https://adblock-tester.com/
+  <img src="https://github.com/00grezt/CLASH_CF-PROJECT/blob/main/PROXYX.png" width="auto" title="CFG PREVIEW IMG 1" align="center">
+<text align="center"> TEST RESULT </text>
 # PREVIEW
 
 <p align="center">
